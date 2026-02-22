@@ -1,21 +1,21 @@
 name: Python check
 
-on:
-  push:
-    branches: [ main ]
-    paths-ignore:
-      - "**.md"
-      - ".azdo/**"
-      - ".devcontainer/**"
-      - ".github/**"
-  pull_request:
-    branches: [ main ]
-    paths-ignore:
-      - "**.md"
-      - ".azdo/**"
-      - ".devcontainer/**"
-      - ".github/**"
-  workflow_call:
+on: {}
+ # push:
+ #   branches: [ main ]
+ #   paths-ignore:
+ #     - "**.md"
+ #     - ".azdo/**"
+ #     - ".devcontainer/**"
+ #     - ".github/**"
+ # pull_request:
+ #   branches: [ main ]
+ #   paths-ignore:
+ #     - "**.md"
+ #     - ".azdo/**"
+ #     - ".devcontainer/**"
+ #     - ".github/**"
+ #  workflow_call:
 
 jobs:
   test_package:

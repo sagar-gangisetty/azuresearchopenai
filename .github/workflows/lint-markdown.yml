@@ -1,11 +1,11 @@
 name: Validate Markdown
 
-on:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - '**.md'
+on: {}
+#  pull_request:
+#    branches:
+#      - main
+#    paths:
+#      - '**.md'
 
 jobs:
   lint-markdown:
